@@ -1,0 +1,13 @@
+{
+  "name": "wintersmith-textile",
+  "description": "textile plugin for wintersmith",
+  "version": "0.1.0",
+  "dependencies": {
+    "coffee-script": "1.2.x"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}

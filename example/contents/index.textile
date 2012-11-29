@@ -1,0 +1,125 @@
+template: index.jade
+
+The following are some examples taken from the textile "Textile Quick Reference":http://redcloth.org/hobix.com/textile/quick.html website.
+
+h1. Writing in Textile
+
+A single paragraph.
+
+Followed by another.
+
+I am <b>very</b> serious.
+
+<pre>
+ I am <b>very</b> serious.
+</pre>
+
+I spoke.
+And none replied.
+
+"Observe!"
+
+Observe -- very nice!
+
+Observe - tiny and brief.
+
+Observe...
+
+Observe: 2 x 2.
+
+one(TM), two(R), three(C).
+
+
+h1. Quick Block Modifiers
+
+h1. Header1
+
+h2. Header 2
+
+h3. Header 3
+
+Any old text
+
+bq. A block quotation.
+
+Any old text
+
+This is covered elsewhere[1].
+
+fn1. Down here, in fact.
+
+
+h1. Quick Phrase Modifiers
+
+I _believe_ every word.
+
+And then? She *fell*!
+
+I __know__.
+I **really** __know__.
+
+??Cat's Cradle?? by Vonnegut
+
+Convert with @r.to_html@
+
+I'm -sure- not sure.
+
+You are a +pleasant+ child.
+
+a ^2^ + b ^2^ = c ^2^
+
+log ~2~ x
+
+I'm %unaware% of most soft drinks.
+
+I'm %{color:red}unaware% of most soft drinks.
+
+
+h1. Lists
+
+# A first item
+# A second item
+# A third
+
+# Fuel could be:
+## Coal
+## Gasoline
+## Electricity
+# Humans need only:
+## Water
+## Protein
+
+* A first item
+* A second item
+* A third
+
+* Fuel could be:
+** Coal
+** Gasoline
+** Electricity
+* Humans need only:
+** Water
+** Protein
+
+h1. External References
+
+I searched "Google":http://google.com.
+
+I am crazy about "Hobix":hobix and "it's":hobix "all":hobix I ever "link to":hobix!
+
+[hobix]http://hobix.com
+
+
+h1. Tables
+
+| name | age | sex |
+| joan | 24 | f |
+| archie | 29 | m |
+| bella | 45 | f |
+
+|_.name |_.age |_.sex|
+| joan | 24 | f |
+| archie | 29 | m |
+| bella | 45 | f |
+
+
